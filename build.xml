@@ -11,11 +11,11 @@
 
     <target name="compilar" depends="init">
         <javac srcdir="src" destdir="build/classes" includeantruntime="on" includejavaruntime="on">
-            <classpath>
+            <!--<classpath>
                 <fileset dir="WebContent/WEB-INF/lib">
                     <include name="*.jar" />
                 </fileset>
-            </classpath>
+            </classpath>-->
         </javac>
     </target>
 
