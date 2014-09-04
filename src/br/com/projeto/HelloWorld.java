@@ -27,6 +27,7 @@ public class HelloWorld extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().println("Hello World Man!");
+		response.getWriter().println("Hello World Man!!! Alterado na branch para teste");
 	}
 
 	/**
